@@ -8,16 +8,25 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- LOCAL RESOURCES -->
-    <link rel="stylesheet" href="/src/css/style.css">
-    <!-- LOCAL RESOURCES -->
+    <!-- <link rel="stylesheet" href="/src/css/style.css"> -->
+	<!-- LOCAL RESOURCES -->
+	
+	<style>
+
+		li 
+		{
+			list-style-type: none;
+		}
+
+	</style>
 </head>
 
 <!-- BODY SECTION -->
 <body>
-   <section>
+   <div class="container-fluid">
        <div class="row">
            <!-- NAVBAR + LOGO -->
-           <nav class="navbar navbar-default" id="navbar-services">
+           <!-- <nav class="navbar navbar-default" id="navbar-services">
             <div class="container-fluid">
               <div class="navbar-header">
                   <img src="https://static1.squarespace.com/static/5df3a7d08a8734580f1dcca9/t/5df3acf5b7f79f2f33005838/1577387093755/?format=1500w" style="width: 150px; height: 150px;" id="logo"/>
@@ -29,57 +38,79 @@
                 <li><a href="about.html">FAQS</a></li>
               </ul>
             </div>
-          </nav>
+          </nav> -->
           
        </div>
-       <!-- END NAVRBAR -->
-    </section>
+	   <!-- END NAVRBAR -->    
 
-    <div class="col-sm-3 col-md-4 col-lg-3" style="font-family: 'Times New Roman', Times, serif;">
-        <nav>
-            <ul>
-                <li><a href="general.html">GENERAL</a></li>
-                <li><a href="community.html">COMMUNITY</a></li>
-                <li><a class="active" href="comapnion.html">COMPANION</a></li>
-            </ul>
-        </nav>
-     </div>
+		<div class="row" style="padding:1%">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-2">
+				<ul>
+					<li><a href="general.html">GENERAL</a></li>
+					<li><a href="community.html">COMMUNITY</a></li>
+					<li><a class="active" href="comapnion.html">COMPANION</a></li>
+				</ul>			
+			</div>
+			<div class="col-lg-8">
+				<h2>COMMUNITY FAQs</h2><br><br>
+				<ul style="font-family: 'Times New Roman', Times, serif; font-size: 19px;">
+					<li><u><i>How do I book an appointment?</i></u></li><br>
+					<p>Log on----register—select a service I want----schedule the 
+						time and date ---choose a companion from the available companion
+							list-----schedule an appointment------complete payment procedures-----
+							your service will be booked</p><br>
 
-     <div class="col-sm-5 col-md-5 col-lg-7">
-         <h2>COMMUNITY FAQs</h2><br><br>
-         <ul style="font-family: 'Times New Roman', Times, serif; font-size: 19px;">
-             <li><u><i>How do I book an appointment?</i></u></li><br>
-             <p>Log on----register—select a service I want----schedule the 
-                 time and date ---choose a companion from the available companion
-                  list-----schedule an appointment------complete payment procedures-----
-                  your service will be booked</p><br>
+						<li><u><i>How do I know my companion is authorized?</i></u></li><br>
+						<p> Only the authorised companions  names are displayed in the EmpathyTechnologies  site.</p><br>
 
-              <li><u><i>How do I know my companion is authorized?</i></u></li><br>
-              <p> Only the authorised companions  names are displayed in the EmpathyTechnologies  site.</p><br>
+						<li><u><i>How do I pay my companion?</i></u></li><br>
+						<p> Link my account with the company account at the time of registration with the required documents 
+							asked----after booking an appointment  I need to do the payment online and no direct transaction
+							with the companion. </p><br>
 
-              <li><u><i>How do I pay my companion?</i></u></li><br>
-              <p> Link my account with the company account at the time of registration with the required documents 
-                  asked----after booking an appointment  I need to do the payment online and no direct transaction
-                   with the companion. </p><br>
+					<li><u><i>Can I cancel a booking?</i></u></li><br>
+					<p>In case of emergency booking I  cannot cancel.</p><br>
+					<p>In case of non emergency booking within 10 minutes of the booking I am able to cancel.</p>
 
-             <li><u><i>Can I cancel a booking?</i></u></li><br>
-             <p>In case of emergency booking I  cannot cancel.</p><br>
-             <p>In case of non emergency booking within 10 minutes of the booking I am able to cancel.</p>
+					<li><u><i> What should I do in case of a refund?</i></u></li><br>
+				</ul>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
 
-             <li><u><i> What should I do in case of a refund?</i></u></li><br>
-         </ul>
-     </div>
-
-<!-- FOOTER -->
-<div style="background-color:#dcdcde;max-width: 100%; padding-bottom: 0%;padding-top: 5%;"></div>
-<div class="row" id="home-footer">
-    <center id="footer-header">CONTACT@EMPATHYTECHNOLOGIES.COM</center>
-    <div class="col-sm-4 col-md-3 col-lg-6" id="div-footer">
-    <span>contact@empathytechnologies</span><br><br>
-    Regus,  8th floor, RDB Boulevard, <br>
-    Sector V, Salt Lake,<br>
-    Kolkata 700091    
-    </div>
-
-</div>
-<!-- FOOTER -->
+		<div class="row" style="padding:5%;background: #F7F7F7;">
+			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<center>
+				<div class="row">
+					<div class="col-12">
+						<h2 style="line-height: 1.2em;"><b>SUBSCRIBE</b></h2>
+						<p>Sign up with your email address to receive news and updates.</p>
+					</div>
+				</div>
+				<div class="row" style="padding:0px">
+					<div class="col-lg-8 col-sm-12" style="padding:2%">
+						<input style="border-radius: 0px;height:40px" type="email" class="form-control" />
+					</div>
+					<div class="col-lg-4 col-sm-12" style="padding:2%">
+						<button type="button" class="btn btn-default" style="border-radius: 0px;height:40px;width:120px;background: #1F1F1F;color:#fff">SIGN UP</button>
+					</div>
+				</div>
+				</center>
+			</div>
+			<div class="col-lg-4"></div>
+		</div>
+		<div class="row" style="background: #1F1F1F;color:#fff;padding:4%">
+		<div class="col-lg-1 col-sm-12"></div>
+		<div class="col-lg-3 col-sm-12">
+			<span>contact@empathytechnologies</span><br><br>
+			Regus,  8th floor, RDB Boulevard, <br>
+			Sector V, Salt Lake,<br>
+			Kolkata 700091
+		</div>
+		<div class="col-lg-8 col-sm-12"></div>
+		</div>
+	</div>
+</body>
+</html>
