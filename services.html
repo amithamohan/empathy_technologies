@@ -1,87 +1,135 @@
 <!DOCTYPE html>
 <head>
-    <title>EMPATHY TECHNOLOGIES</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>EMPATHY TECHNOLOGIES</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- LOCAL RESOURCES -->
-    <link rel="stylesheet" href="/src/css/style.css">
-    <!-- LOCAL RESOURCES -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- LOCAL RESOURCES -->
+	<!-- <link rel="stylesheet" href="/src/css/style.css"> -->
+	<!-- LOCAL RESOURCES -->
 </head>
 
 <!-- BODY SECTION -->
 <body>
-   <section>
-       <div class="row">
-           <!-- NAVBAR + LOGO -->
-           <nav class="navbar navbar-default" id="navbar-services">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                  <img src="https://static1.squarespace.com/static/5df3a7d08a8734580f1dcca9/t/5df3acf5b7f79f2f33005838/1577387093755/?format=1500w" style="width: 150px; height: 150px;" id="logo"/>
-              </div>
-              <ul class="nav navbar-nav navbar-right" id="nav_services">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">OUR SERVICES</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">FAQS</a></li>
-              </ul>
-            </div>
-          </nav>
-          
-       </div>
-       <!-- END NAVRBAR -->
-    </section>
-
-    <div class="contanier" id="services-contanier">
-        <div class="row" id="services-row1">
-            <center><span id="services-header">SERVICES WE OFFER</span></center>
-            <div class="col-sm-3 col-md-5 col-lg-10">
-                <img src="/assets/images/services-img1.png" id="services-img1"/>
-            </div>
-
-        </div>
-        <!-- <div class="row" id="services-row2">
-        <div class="col-sm-3 col-md-5 col-lg-10">
-            <img src="/assets/images/services-img2.png"  id="servisec-img2"/>
-        </div>
-    </div> -->
-
-      <div class="row">
-        <div class="col-sm-3 col-md-5 col-lg-10">
-            
-                <span>AMBULANCE ON THE GO</span><br>
-                <p>
-                    Empathy launches the first service for you, it’s the Ambulance Service. <br>
-                    -Community can book an ambulance through our app and schedule a time slot on Emergency
-                     or Non-Emergency situations. You have the option to choose different varieties of 
-                     ambulances with different kind of facilities according to your needs. Companions who 
-                     are available at the time immediately accepts your request and is ready to provide you 
-                     assistance with the service.
-                </p>
-                <span>CLINICAL DIAGNOSIS</span>
-                <p>
-                    <span>- COMING SOON</span><br>
-                        Dear Companion: Let us know the healthcare services that you wish to access.<br>
-                        Dear Community: Let us know the healthcare services that you wish to provide.
-                    </p>
-                </p>
-            
-        </div>
-    </div>
-    </div>
-    <div class="row" id="home-footer">
-        <center id="footer-header">CONTACT@EMPATHYTECHNOLOGIES.COM</center>
-        <div class="col-sm-4 col-md-3 col-lg-6" id="div-footer">
-        <span>contact@empathytechnologies</span><br><br>
-        Regus,  8th floor, RDB Boulevard, <br>
-        Sector V, Salt Lake,<br>
-        Kolkata 700091    
-        </div>
-
-    </div>
-    <!-- FOOTER -->
-
+	<div class="container-fluid">
+		<!-- <section>
+			<div class="row">		
+				<nav class="navbar navbar-default" id="navbar-services">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<img src="https://static1.squarespace.com/static/5df3a7d08a8734580f1dcca9/t/5df3acf5b7f79f2f33005838/1577387093755/?format=1500w" style="width: 150px; height: 150px;" id="logo"/>
+						</div>
+						<ul class="nav navbar-nav navbar-right" id="nav_services">
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="services.html">OUR SERVICES</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+							<li><a href="about.html">FAQS</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>		
+		</section> -->
+		<div class="contanier">
+			<center>
+			<div class="row">
+				<div class="col-12">
+					<h3>SERVICES WE OFFER</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-sm-1"></div>
+				<div class="col-lg-8 col-sm-10">
+					<img src="/assets/images/services-img1.png" class="img img-responsive" />
+				</div>
+				<div class="col-lg-2 col-sm-1"></div>
+			</div>
+			</center>
+			<div class="row">
+				<div class="col-lg-2 col-sm-2"></div>
+				<div class="col-lg-2 col-sm-2" style="padding-left:1.8%">
+					AMBULANCE ON THE GO
+					CLINICAL DIAGNOSIS
+				</div>
+				<div class="col-lg-2 col-sm-2"></div>
+			</div>
+			<div class="row">				
+				<div class="col-lg-4 col-sm-12"></div>
+				<div class="col-lg-4 col-sm-12">
+					<h3><b>AMBULANCE ON THE GO</b></h3><br>
+					<p>
+						Empathy launches the first service for you, it’s the Ambulance Service. <br><br>
+						-Community can book an ambulance through our app and schedule a time slot on Emergency
+						or Non-Emergency situations. You have the option to choose different varieties of 
+						ambulances with different kind of facilities according to your needs. Companions who 
+						are available at the time immediately accepts your request and is ready to provide you 
+						assistance with the service.
+					</p>
+				</div>
+				<div class="col-lg-4 col-sm-12"></div>				
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-lg-4 col-sm-12"></div>
+				<div class="col-lg-4 col-sm-12">
+					<h3><b>CLINICAL DIAGNOSIS</b></h3><br />
+					<h4>- COMING SOON</h4><br>
+					<p>  
+						Dear Companion: Let us know the healthcare services that you wish to access.<br>
+						Dear Community: Let us know the healthcare services that you wish to provide.
+					</p>
+				</div>
+				<div class="col-lg-4 col-sm-12"></div>				
+			</div>
+			<div class="row" style="padding:5%">
+				<div class="col-12">
+					<center style="font-size: 140%;">
+						<i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;
+						<i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</center>
+				</div>
+			</div>
+			<div class="row" style="padding:5%;background: #F7F7F7;">
+				<div class="col-lg-4"></div>
+				<div class="col-lg-4">
+					<center>
+					<div class="row">
+						<div class="col-12">
+							<h2 style="line-height: 1.2em;"><b>SUBSCRIBE</b></h2>
+							<p>Sign up with your email address to receive news and updates.</p>
+						</div>
+					</div>
+					<div class="row" style="padding:0px">
+						<div class="col-lg-8 col-sm-12" style="padding:2%">
+							<input style="border-radius: 0px;height:40px" type="email" class="form-control" />
+						</div>
+						<div class="col-lg-4 col-sm-12" style="padding:2%">
+							<button type="button" class="btn btn-default" style="border-radius: 0px;height:40px;width:120px;background: #1F1F1F;color:#fff">SIGN UP</button>
+						</div>
+					</div>
+					</center>
+				</div>
+				<div class="col-lg-4"></div>
+			</div>
+			<div class="row" style="background: #1F1F1F;color:#fff;padding:4%">
+				<div class="col-lg-1 col-sm-12"></div>
+				<div class="col-lg-3 col-sm-12">
+					<span>contact@empathytechnologies</span><br><br>
+					Regus,  8th floor, RDB Boulevard, <br>
+					Sector V, Salt Lake,<br>
+					Kolkata 700091
+				</div>
+				<div class="col-lg-8 col-sm-12"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
 
