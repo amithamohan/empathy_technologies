@@ -93,19 +93,24 @@ li
 
   #learn_more
   {
-      background-color:#36B3A8;
-      box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
-    padding: 1.50rem 2rem;
-    font-family: 'Varela Round';
-    font-size: 125%;
-    font-weight: bold;
-    border-radius: 30%;
-    width: 30%;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    border: 0;
-    display: inline-block;
-  }
+        background-color: #36B3A8;
+        border: none;
+        font-weight: bold;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
+      
+    .button:hover
+     {
+        background-color: 4BA490;
+      }
+  
 
   .sec2_para
   {
@@ -167,6 +172,7 @@ li
 #footer-header
 {
     padding-top: 5%;
+    color: #606060;
 }
 #div-footer
 {
